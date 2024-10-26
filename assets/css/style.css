@@ -86,7 +86,7 @@ nav ul {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
-    max-height: 550px;
+    max-height: calc(100vh - 100px - 100px);
     overflow-y: scroll;
 }
 
